@@ -1,0 +1,467 @@
+/*corpo*/
+
+
+body {
+    
+    font-family: Arial, sans-serif;
+    color: #1c1c1c;
+}
+
+h1, h2, h3 {
+	font-family: Arial, sans-serif;
+    color: #000000;
+    text-align: center;
+}
+
+#linha {
+	border: none;
+    height: 25px;
+    color: #333; 
+    background-color:#FE9A2E;
+}
+
+.senac {
+	color: darkred;
+    display: block;
+    width: 130px;
+    height: 130px;
+    font-size: 50px;
+
+}
+
+
+h1.logo a {
+    background-image: url("../img/logo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 130px;
+    height: 130px;
+    font-size: 0;
+}
+
+.java .ada {
+    margin: 0 -16% 0px 211px;
+    width: 115px;
+    height: 30px;
+    border: 1px solid #A6A6A6;
+    font-size: 12px;
+    color: #7B7B7B;
+    text-align: center;
+    justify-content: left;
+    padding: 6px 12px;
+}
+.java .ade {
+    margin: 0px -11% 0px 80px;
+    width: 115px;
+    height: 30px;
+    border: 1px solid #A6A6A6;
+    font-size: 12px;
+    color: #7B7B7B;
+    text-align: center;
+    justify-content: left;
+    padding: 6px 12px;
+}
+.java .adi {
+    margin: 0px -7% 0px 76px;
+    width: 115px;
+    height: 30px;
+    border: 1px solid #A6A6A6;
+    font-size: 12px;
+    color: #7B7B7B;
+    text-align: center;
+    justify-content: left;
+    padding: 6px 12px;
+}
+.java .adu {
+    margin: 0px -35% 0px 697px;
+    width: 115px;
+    height: 30px;
+    border: 1px solid #A6A6A6;
+    font-size: 12px;
+    color: #7B7B7B;
+    text-align: center;
+    justify-content: left;
+    padding: 6px 12px;
+}
+
+.ada {
+	color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    
+}
+.ade {
+	color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    
+}
+.adi {
+	color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    
+}
+.adu {
+	color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+
+    
+}
+
+.nono {
+	position: absolute;
+    display: block;
+    width: 130px;
+    height: 130px;
+    font-size: 0;
+}
+
+/*estilo nav*/
+
+nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url("../img/backmenu.png");
+	background-size:initial;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+nav > a {
+	text-decoration: none;
+	color: black;
+	font-weight: 800;
+	font-size: 32px;
+	font-family: Arial, sans-serif;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	list-style: none;
+	padding:0;
+	width: 100;
+
+}
+
+nav ul li {
+	text-align: center;
+	width: 100%;
+}
+
+
+nav ul li a {
+	display: inline-block;
+	padding: 10px 0;
+	width: 100%;
+	text-decoration: none;
+	color: Black;
+}
+
+/*Estilo cabeçalho*/
+
+
+.topo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url("../img/topo.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	color: Black
+	text-align: center;
+	padding: 0px;
+	width: 100%;
+	height: 50vh;
+	justify-content: center;
+	max-width: 3000px;   
+    width: 100%;
+    max-height: 500px;  
+    min-height: auto;      
+    background-size:100%;
+    background-repeat: no-repeat
+
+} 
+.topo1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url("../img/sobre1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	color: Black
+	text-align: center;
+	padding: 0px;
+	width: 100%;
+	height: 50vh;
+	justify-content: center;
+	max-width: 3000px;   
+    width: 100%;
+    max-height: 500px;  
+    min-height: auto;      
+    background-size:100%;
+    background-repeat: no-repeat
+}
+
+.botao {
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 10px 30px;
+	background-color:  #2f80ed;
+	font-size: .9em;	
+}
+
+
+
+.logigin {
+	color: white;
+	font-family: arial,sans-serif;
+	font-size: 1.2em;
+}
+
+.gigin {
+	font-family: arial,sans-serif;
+	font-size:1.2em;
+	color: white;
+}
+
+.aluno {
+	display: flex;
+	flex-direction: column;
+	background-image: url(https://cloud.plataforma.senac.br/senacportalaluno/bg-login.596311c60ecdffffa669.svg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: Black;
+	text-align: center;
+	padding: 0px;
+}
+.ti{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url("../img/ti.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	color: Black
+	text-align: center;
+	padding: 0px;
+}
+
+
+header h1 {
+	color: Black;
+}
+
+header p {
+	margin-bottom: 2em;
+	color:black;
+	font-size:30px;
+
+}
+
+
+.noticias {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px;
+}
+
+.noticias div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+}
+#contato {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 0px;
+
+}
+
+#contato h2 {
+	color: #000000;
+}
+#contato{
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 500px;
+	margin: 0 auto;
+
+}
+#tel {
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#mail {
+	text-decoration: none;
+	font-size: 20px;
+
+}
+ 
+ #contato h2{
+ 	width: 100%;
+ }
+
+ #contato p {
+ 	width: 100%;
+ }
+
+ .estilo {
+ 	display: grid;
+	flex-direction: column;
+	align-items: center;
+	background-image: url("../img/nada.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	color: black
+	text-align: center;
+	padding: 0px;
+ }
+ #nada{
+ 	text-align: center;
+ }
+
+.listra{
+	font-family: Arial,sans-serif;
+ 	 border: 1px solid #EBEBEB;
+ 	 padding-top: 10px;
+ 	 padding-bottom: 10px;
+ 	 align-items: center;
+ 	list-style-type: none;
+
+ }
+ .listra{
+	font-family: Arial,sans-serif;
+ 	 border: 0px solid #EBEBEB;
+ 	 padding-top: 10px;
+ 	 padding-bottom: 10px;
+ 	 align-items: center;
+ 	list-style-type: none;
+
+ }
+
+ #cursos {
+ 	display: grid;
+	flex-direction: column;
+	align-items: center;
+	color: black;
+	text-align: center;
+	padding: 0px;
+ }
+
+
+
+
+
+/*estilo rodape*/
+
+
+footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url("../img/rodapelogo.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	color: Black
+	text-align: center;
+	padding: 2px;
+	text-align: center;
+	padding: 5px;
+	background-color: #004587;
+	color: white;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+
+@media screen and (min-width:  800px){
+
+/*nav nav*/
+
+
+nav{
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+nav ul {
+	flex-direction: row;
+	width: 70%;
+}
+
+/*caca*/
+
+header {
+	width: 100%;
+	height: 50vh;
+	justify-content: center;
+	max-width: 3000px;   
+    width: 100%;
+    max-height: 500px;  
+    min-height: auto;      
+    background-size:100%;
+    background-repeat: no-repeat
+}
+#cor1 {
+    color: #004587;
+}
+
+}
+
+#sobre {
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+/*sesevir*/
+
+.noticias {
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+
+.noticias h2 {
+	text-align: center;
+	width: 100%;
+
+}
+
+.noticias div {
+	flex-grow: 1;
+	flex-basis: 150px;
+	padding: 0 10px;
+}
+
+
+
+
+#rodape h4{
+	color: white;
+	font-size:25px;
+}
+}
